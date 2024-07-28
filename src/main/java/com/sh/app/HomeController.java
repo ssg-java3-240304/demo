@@ -16,6 +16,6 @@ public class HomeController {
 
     @GetMapping(path = "/", produces = MediaType.TEXT_HTML_VALUE)
     public ResponseEntity<?> home(){
-        return ResponseEntity.ok("<h1>Hello world! App's profile is <mark>%s</mark> \uD83C\uDFB1</h1>".formatted(value));
+        return ResponseEntity.ok("<h1>⚽️Hello world! App's profile is <mark>%s</mark> \uD83C\uDFB1</h1>".formatted(value));
     }
 }
