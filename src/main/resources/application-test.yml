@@ -1,7 +1,3 @@
-# 사용자 정의 속성
-profile:
-  value: 'test'
-
 spring:
   datasource:
     url: ${TEST_DB_URL}
